@@ -1,3 +1,3 @@
 setTimeout(function() {
-    document.body.innerHTML += '<p>Added text after 3 seconds.</p>';
+    document.body.innerHTML += '<p class="extra_text">Get on a bike, and ride!</p>';
   }, 3000);

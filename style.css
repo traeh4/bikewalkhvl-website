@@ -17,6 +17,13 @@ body {
     height: 400px;
 }
 
+.image-container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 39px;
+}
+
 .centered-image {
     width: 300px;
     height: 300px;
@@ -26,4 +33,9 @@ body {
 .paragraph {
     text-align: center;
     padding: 20px;
+}
+
+.extra_text {
+    text-align: center;
+    padding: 10px;
 }
