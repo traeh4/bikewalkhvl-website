@@ -37,5 +37,6 @@ body {
 
 .extra_text {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+    font-size: 28px;
 }
