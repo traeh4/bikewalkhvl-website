@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.centered-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.paragraph {
+    text-align: center;
+    padding: 20px;
+}
