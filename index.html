@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BikeWalkHVL</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      background-color: #333;
+    }
+
+    header nav {
+      display: flex;
+    }
+
+    header nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    #intro {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: left;
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    #staff,
+    #contact,
+    #extra {
+      display: none;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#" id="intro-link">Intro</a>
+      <a href="#" id="staff-link">Staff</a>
+      <a href="#" id="contact-link">Contact</a>
+      <a href="#" id="extra-link">Extras</a>
+    </nav>
+  </header>
+
+  <main>
+    <div id="intro">
+      <img src="photo.png" alt="Photo">
+      <h1>Welcome to our company!</h1>
+      <p>BikeWalkHVL is a great group that is trying to promote biking and walking in Henderson County. We are speaking frequently with the local government and organizing gatherings in which we can display our enthusiasm for biking and walking in our town. Much of Hendersonville's income relates to tourism. 
+    </div>
+
+    <div id="staff">
+      <h2>Our Staff</h2>
+      <p>Our crew includes me, Cheech, Chong, and Larry.</p>
+    </div>
+
+    <div id="contact">
+      <h2>Contact Us</h2>
+      <p>Group Name: BikeWalkHVL</p>
+      <p>Email: bikewalkhvl@gmail.com</p>
+
+      <a href="https://www.facebook.com/profile.php?id=61557565082163" class="fa fa-facebook-square fa-lg" target="_blank" rel="noopener noreferrer"></a>
+      <a href="https://www.instagram.com/bikewalkhvl/" class="fa fa-instagram fa-lg" target="_blank" rel="noopener noreferrer"></a>
+    </div>
+
+    <div id="extra">
+      <h2>Let's fill this section full of stuff!</h2>
+    </div>
+  </main>
+
+  <script>
+    const introLink = document.getElementById('intro-link');
+    const staffLink = document.getElementById('staff-link');
+    const contactLink = document.getElementById('contact-link');
+    const extraLink = document.getElementById('extra-link');
+
+    const intro = document.getElementById('intro');
+    const staff = document.getElementById('staff');
+    const contact = document.getElementById('contact');
+    const extra = document.getElementById('extra');
+
+    introLink.addEventListener('click', () => {
+      intro.style.display = 'block';
+      staff.style.display = 'none';
+      contact.style.display = 'none';
+      extra.style.display = 'none';
+    });
+
+    staffLink.addEventListener('click', () => {
+      intro.style.display = 'none';
+      staff.style.display = 'block';
+      contact.style.display = 'none';
+      extra.style.display = 'none';
+    });
+
+    contactLink.addEventListener('click', () => {
+      intro.style.display = 'none';
+      staff.style.display = 'none';
+      contact.style.display = 'block';
+      extra.style.display = 'none';
+    });
+
+    extraLink.addEventListener('click', () => {
+      intro.style.display = 'none';
+      staff.style.display = 'none';
+      contact.style.display = 'none';
+      extra.style.display = 'block';
+    });
+  </script>
+</body>
+</html>
+
