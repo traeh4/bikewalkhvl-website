@@ -1,0 +1,125 @@
+body {
+margin: 0;
+padding: 0;
+}
+
+header {
+display: flex;
+align-items: center;
+height: 80px;
+background-color: #4A99A6;
+background-image: url('logo_white.png');
+background-size: 120px;
+background-repeat: no-repeat;
+background-position: left 20px center
+}
+
+header nav {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-basis: 100%;
+font-family: 'Montserrat';
+font-size: 32px;
+}
+
+header nav a {
+color: #fff;
+text-decoration: none;
+padding: 30px;
+}
+
+.left {
+position: absolute;
+left: 0;
+width: 15%;
+}
+
+.right {
+position: absolute;
+right: 0;
+bottom: 0;
+width: 15%;
+}
+
+#intro img {
+display: flex;
+justify-content: center;
+margin: 0 auto;
+padding-top: 20px;
+}
+
+#intro h1 {
+display: flex;
+justify-content: center;
+margin: 0 auto;
+font-family: 'Montserrat';
+font-size: 40px;
+color: #CCCD2B;
+background-color: #4A99A6;
+}
+
+#intro {
+display: flex;
+flex-direction: column;
+text-align: left;
+width: 40%;
+margin: 0 auto;
+font-family: 'Montserrat';
+font-size: 20px;
+}
+
+#volunteer img,
+#contact img {
+display: flex;
+justify-content: center;
+margin: 0 auto;
+padding-top: 20px;
+}
+
+#volunteer h1,
+#contact h1,
+#extra h1 {
+display: flex;
+justify-content: center;
+margin: 0 auto;
+font-family: 'Montserrat';
+font-size: 40px;
+color: #CCCD2B;
+background-color: #4A99A6;
+}
+
+#volunteer,
+#contact,
+#extra {
+display: flex;
+text-align: left;
+width: 40%;
+margin: 0 auto;
+font-family: 'Montserrat';
+padding-top: 20px;
+font-size: 20px;
+}
+
+#volunteer p,
+#contact p {
+padding-top: 20px;
+}
+
+.photo-album {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 10px;
+padding-top: 20px;
+}
+
+.photo-album img {
+width: 100%;
+height: auto;
+}
+  
+
+#social {
+padding-right: 10px;
+text-decoration: none;
+}
