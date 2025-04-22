@@ -83,6 +83,7 @@ justify-content: center;
 margin: 0 auto;
 padding-top: 20px;
 width: 800px;
+max-width: 100%;
 }
 
 #contact img {
@@ -91,6 +92,7 @@ justify-content: center;
 margin: 0 auto;
 padding-top: 20px;
 width: 500px;
+max-width: 100%;
 }
 
 #volunteer h1,
