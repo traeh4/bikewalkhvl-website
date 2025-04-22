@@ -50,9 +50,6 @@ padding-top: 20px;
 }
 
 #intro img {
-display: flex;
-justify-content: center;
-margin: 0 auto;
 width: 800px;
 max-width: 100%;
 }
@@ -78,19 +75,11 @@ font-size: 20px;
 }
 
 #volunteer img {
-display: flex;
-justify-content: center;
-margin: 0 auto;
-padding-top: 20px;
 width: 800px;
 max-width: 100%;
 }
 
 #contact img {
-display: flex;
-justify-content: center;
-margin: 0 auto;
-padding-top: 20px;
 width: 500px;
 max-width: 100%;
 }
