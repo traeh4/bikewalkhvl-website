@@ -127,7 +127,7 @@ justify-content: center;
     #intro img,
     #volunteer img,
     #contact img {
-        width: fit-content;
+        width: 200px;
     }
 }
 
