@@ -123,6 +123,14 @@ display: flex;
 justify-content: center;
 }
 
+@media screen and (max-width: 600px) {
+    #intro img,
+    #volunteer img,
+    #contact img {
+        width: fit-content;
+    }
+}
+
 #social {
 padding-right: 10px;
 text-decoration: none;
