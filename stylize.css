@@ -47,6 +47,7 @@ display: flex;
 justify-content: center;
 margin: 0 auto;
 padding-top: 20px;
+width: 800px;
 }
 
 #intro h1 {
@@ -69,12 +70,20 @@ font-family: 'Montserrat';
 font-size: 20px;
 }
 
-#volunteer img,
+#volunteer img{
+display: flex;
+justify-content: center;
+margin: 0 auto;
+padding-top: 20px;
+width: 900px;
+}
+
 #contact img {
 display: flex;
 justify-content: center;
 margin: 0 auto;
 padding-top: 20px;
+width: 500px;
 }
 
 #volunteer h1,
@@ -124,11 +133,11 @@ justify-content: center;
 }
 
 @media screen and (max-width: 600px) {
-    #intro img,
-    #volunteer img,
-    #contact img {
-        width: 200px;
-    }
+#intro img,
+#volunteer img,
+#contact img {
+    width: 200px;
+}
 }
 
 #social {
